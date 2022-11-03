@@ -33,9 +33,9 @@ function SendPost(){
     });
   }; 
 return (
-    <div>
-        <input placeholder='first name' onChange={e=>{setState({...State,fname:e.target.value})}}/>
-        <input placeholder='last name' onChange={e=>{setState({...State,lname:e.target.value})}}/>
+    <div className='container'>
+        <input className='input' placeholder='usern name' onChange={e=>{setState({...State,fname:e.target.value})}}/>
+        <input className='input' placeholder='password' type={'password'} onChange={e=>{setState({...State,lname:e.target.value})}}/>
         {/* <Link to={'../home'}> */}
         <button className='btn btn-green' onClick={getReq}>Login</button>
         

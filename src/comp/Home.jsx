@@ -19,7 +19,7 @@ function Home() {
   useEffect(() => {
      requast()
   
-  })
+  },[])
   
 
   return (
